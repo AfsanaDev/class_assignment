@@ -12,7 +12,7 @@ class UserDetails extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('User Details', style: TextStyle(
+        title: const Text('User Details', style: TextStyle(
           fontSize: 20, fontWeight: FontWeight.w700
         ),),
       ),

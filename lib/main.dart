@@ -38,6 +38,8 @@ class MyHomePage extends StatelessWidget {
       UserName.length,
           (index) =>UserDataModel('${UserName[index]}','${UserEmail[index]}', '${UserContact[index]}', '${ImgUrl[index]}')
   );
+
+  MyHomePage({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
